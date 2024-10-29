@@ -14,7 +14,7 @@
         <legend>Member Demographics</legend>
         <form action="nothing.php" method="post">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Write your name here: ">
+            <input type="text" name="name" id="name" placeholder="Write your name here: " required>
             <br>
             <br>
             <label for="membership">Are you a member?</label>
@@ -25,7 +25,7 @@
             <br>
             <br>
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="Write your email here: ">
+            <input type="text" name="email" id="email" placeholder="Write your email here: " required>
     </fieldset>
     <br>
     <label for="facility">Facility</label>
@@ -43,7 +43,7 @@
     <input type="time" name="time" id="time">
     <br>
     <br>
-    <input type="checkbox" name="policy" id="policy"> I agree in to the club's reservation policy
+    <input type="checkbox" name="policy" id="policy" required> I agree in to the club's reservation policy
     <br>
     <br>
     <input type="submit" value="Submit">
